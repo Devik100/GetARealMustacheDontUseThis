@@ -1,0 +1,15 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-warning:hover{
+    background-color: rebeccapurple;
+}
+canvas{
+    animation-name: shrink;
+    animation-duration: 4.7s;
+    animation-iteration-count: infinite;
+}
+@keyframes shrink{
+    from{box-shadow: 10px 10px 30px green;}
+    to{box-shadow: 10px 10px 30px red;}
+}
